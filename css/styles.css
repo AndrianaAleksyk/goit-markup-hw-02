@@ -1,14 +1,25 @@
 body {
-    font-family: "Roboto";
+    font-family: Roboto, sans-serif;
     color: black;
     backgroung-color: #FFF;
 }
-.section {
-
-}
 .link {
+    color: #2e2f42;
     text-decoration: none;
 }
 .list {
     list-style: none;
+}
+
+< !-- Header-studio-section -->
+.web {
+    color: #4D5AE5;
+    font-size: 18px;
+} 
+
+.service-button:hover,
+.service-button:focus {
+color:#FFFFFF;
+background-color: #4d5ae5;
+cursor: pointer;
 }
