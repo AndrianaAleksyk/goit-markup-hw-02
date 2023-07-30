@@ -1,10 +1,13 @@
-a {
-    color: black;
-}
-header {
-    background-color: whitesmoke;
-}
+<!-- Base Styles -->
 body {
-    font-family: "Roboto", sans-serif;
-    color: 
+
+}
+.section {
+
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
 }
