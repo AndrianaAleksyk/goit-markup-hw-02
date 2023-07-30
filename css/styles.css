@@ -1,6 +1,7 @@
-<!-- Base Styles -->
 body {
-
+    font-family: "Roboto";
+    color: black;
+    backgroung-color: #FFF;
 }
 .section {
 
