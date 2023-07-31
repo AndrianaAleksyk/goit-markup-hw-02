@@ -14,7 +14,7 @@ body {
 .list {
     list-style: none;
 }
-a.link {
+.link {
     text-decoration: none;
 }  
 
@@ -57,9 +57,7 @@ a.link {
 .contact-link:hover,
 .contact-link:focus,
 .link-logo:hover,
-.link-logo:focus,
-.list-items:focus,
-.list-items:hover {
+.link-logo:focus {
     color: #404bbf
 }
 /*Service section*/
@@ -179,7 +177,10 @@ color: #2e2f42;
     background-color: #F4F4FD;
     cursor: pointer;
 }
- 
+ .list-items:focus,
+ .list-items:hover {
+     color: #404bbf
+ }
 
 /*Images list*/
 .image-name {
