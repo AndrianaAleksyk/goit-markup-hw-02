@@ -1,6 +1,11 @@
 /*General styles*/
 
-:root,
+:root {
+    --font-family: Roboto, sans-serif;
+    --color: #434455;
+    --background-color: #FFFFFF;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -17,7 +22,7 @@ body {
 /*Header*/
 
 /* Logo */
-.logo-link {
+.logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
