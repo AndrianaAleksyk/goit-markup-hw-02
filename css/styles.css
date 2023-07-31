@@ -58,8 +58,6 @@ a.link {
 .contact-link:focus,
 .nav-list:hover,
 .nav-list:focus,
-.service-button:hover,
-.service-button:focus,
 .list-items:focus,
 .list-items:hover {
     color: #404bbf
@@ -103,7 +101,10 @@ a.link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+}
+.service-button:hover,
+.service-button:focus  {
+    background-color: #404BBF;
 }
 /*Work section*/
 
