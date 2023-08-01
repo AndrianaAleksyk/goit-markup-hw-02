@@ -5,21 +5,24 @@
     --color: #434455;
     --background-color: #FFFFFF;
 }
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
-    background-color: #FFFFFF  
+    background-color: #FFFFFF;
 }
 
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
-}  
+}
+
 /*Header*/
 
-.header-logo link {
+.header-logo a {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -28,28 +31,34 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.pages-list-item link {
+
+.pages-list-item a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.pages-list-item link:hover,
-.pages-list-item link:focus {
+
+.pages-list-item a:hover,
+.pages-list-item a:focus {
     color: #404bbf;
 }
+
 .header-address {
     font-style: normal;
 }
-.header-address-list-item link {
+
+.header-address-list-item a {
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-address-list-item link:hover,
-.header-address-list-item link:focus {
+
+.header-address-list-item a:hover,
+.header-address-list-item a:focus {
     color: #404bbf;
 }
 
