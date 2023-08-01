@@ -19,7 +19,7 @@ body {
 }  
 /*Header*/
 
-.header-logo  {
+.header-logo link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -27,6 +27,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+.header-logo-dark {
+    color:#2e2f42;
 }
 .pages-list-item link {
     font-weight: 500;
@@ -42,14 +45,15 @@ body {
 .header-address {
     font-style: normal;
 }
-.header-address-list-item link {
+.address-list-item link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-address-list-item link:hover,
-.header-address-list-item link:focus {
+
+.address-list-item link:hover,
+.address-list-item link:focus {
     color: #404bbf;
 }
 
