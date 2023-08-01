@@ -28,7 +28,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header-logo-dark {
+.header-logo {
     color:#2e2f42;
 }
 .pages-list-item link {
@@ -51,7 +51,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .address-list-item link:hover,
 .address-list-item link:focus {
     color: #404bbf;
@@ -80,7 +79,6 @@ body {
     cursor: pointer;
 }
  
-
 /* Advantages section*/
 
 .our-advantures {
@@ -143,18 +141,12 @@ color: #2e2f42;
     color: #434455;
 }
 
-/*Footer section*/
+/*Footer*/
 
 .footer {
     background-color: #2e2f42;
 }
 
-/* Span in logo */
-.logo-studio {
-    color: #f4f4fd;
-}
-
-/* Paragraph */
 .marketing {
     line-height: 1.5;
     color: #f4f4fd;
@@ -163,7 +155,6 @@ color: #2e2f42;
 
 /*Portfolio*/
 
-/*Buttons*/
 .list-items {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -174,9 +165,10 @@ color: #2e2f42;
     background-color: #F4F4FD;
     cursor: pointer;
 }
- .list-items:focus,
- .list-items:hover {
-     color: #404bbf
+ .list-items:hover,
+ .list-items:focus {
+     color: #404bbf;
+    background-color: #404BBF;
  }
 
 /*Images list*/
