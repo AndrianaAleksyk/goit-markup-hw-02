@@ -18,6 +18,7 @@ body {
     text-decoration: none;
 }  
 /*Header*/
+
 .navigation {
     background-color: var(--primary-white-color, #FFFFFF);
 }
@@ -40,7 +41,6 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
-    color: var(--nav-log-foot-color, #2e2f42);
     font-style: normal;
     text-transform: uppercase;
 }
@@ -192,5 +192,4 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
