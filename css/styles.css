@@ -43,6 +43,7 @@ body {
     letter-spacing: 0.02em;
     font-style: normal;
     text-transform: uppercase;
+    color: #2e2f42;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -151,11 +152,11 @@ color: #2e2f42;
 
 /*Footer*/
 .footer {
-background-color: #2e2f42;
+background-color: var(--nav-log-foot-color, #2e2f42);
 }
 
 .footer-logo {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
 .marketing {
